@@ -1,0 +1,57 @@
+@font-face{
+    font-family: 'lato';
+    src: url("../public/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'roboto';
+    src: url("../public/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+// variables
+
+// BG
+$primary-bg-color : linear-gradient(#FFFFFF,#f1e8e8 ) ;
+$secondary-bg-color : #E5E5E5;
+$third-bg-color : #245852 ;
+$fourth-bg-color: #01996D;
+$fifth-bg-color:#FFFFFF;
+
+
+// Text color 
+$primary-text-color : #01996D ;
+$secondary-text-color : #292929 ;
+$third-text-color : #FFFFFF ;
+$fourth-text-color: #000000;
+$fifth-text-color:#484848;
+$sixht-text-color:#01996D;
+$seventh-text-color:#424242;
+
+
+// P 
+$padding-xl : 275px ;
+$padding-l : 2rem ;
+$padding-m : 1rem ;
+$padding-s : .8rem ;
+
+// M 
+$margin-xl : 3rem ;
+$margin-l : 2rem ;
+$margin-m : 1rem ;
+$margin-s : .8rem ;
+
+
+// Font-size
+$font-size-xxxxl : 65px ;
+$font-size-xxxl : 50px ;
+$font-size-xl:45px;
+$font-size-l: 30px;
+$font-size-m:25px;
+$font-size-s : 20px;
+$font-size-xl:15px;
+$font-size-xxs : 11px ;
+
+// Font-family:
+
+$primary-font-family: 'roboto';
+$secondary-font-family: 'lato';
