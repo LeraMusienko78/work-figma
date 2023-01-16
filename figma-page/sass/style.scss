@@ -22,6 +22,7 @@ body{
 
 #app{
    width:1920px ;
+   // height: 250vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -137,6 +138,9 @@ header{
          font-family: $secondary-font-family;
          border: none;
 
+      }
+      .button:hover{
+         box-shadow: 3px 2px 3px rgb(1, 53, 1)
       }
      
    }
@@ -327,7 +331,7 @@ main{
    .video{
       display: flex;
       justify-content: space-between;
-      width: 1929px;
+      width: 1920px;
       height: 922px;
       background: $third-bg-color;
       margin-top: 50px;
@@ -358,6 +362,10 @@ main{
             font-size: $font-size-s;
             border: none;
          }
+
+         .button:hover{
+            box-shadow: 3px 2px 3px rgb(0, 30, 0)
+         }
       }
 
       .img{
@@ -365,10 +373,8 @@ main{
          height: 516px;
          margin-top: 229px;
          margin-right: 206px;
-
-         
-
       }
+      
      .clic-button{
       position: absolute;
       margin-left: 400px;
@@ -389,5 +395,154 @@ main{
 
      }
    }
+
+   .product{
+      display: flex;
+      width: 1929px;
+      height: 936px;
+      
+
+     .photo-wrapper{
+      margin-top: 100px;
+      margin-left: 336px;
+     
+
+      .phone{
+         width: 648px;
+         height: 573px;
+      }
+
+      .photo{
+         width: 427px;
+         height: 590px;
+         position: absolute;
+         margin-top: -20px;
+         margin-left: -550px;
+        
+      }
+     }
+
+     .visit-cart{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 296px;
+      height: 294px;
+      border-radius: 5px;
+      position: absolute;
+      margin-top: 455px;
+      margin-left: 275px;
+      background: $fifth-bg-color;
+
+         .title{
+           font-size: $font-size-xs; 
+         }
+
+         .line{
+            margin-top: 8px;
+            width: 110.5px;
+         }
+
+         .img-wrapper{
+            width: 69.73px;
+            height: 104.15px;
+            margin-top: 20px;
+
+            .img-bg{
+               width: 60px;
+               height: 60px;
+               border-radius: 50%;
+            }
+
+            .img{
+               position: absolute;
+               width: 45px;
+               height: 50px;
+               margin-top: 5px;
+               margin-left: -55px;
+            }
+        
+         }
+
+         .contents-wrapper{
+            display: flex;
+            flex-direction: column;
+
+            .contents{
+              font-size: $font-size-xs;
+            }
+
+            .content{
+               margin-top: 15px;
+               font-size: $font-size-xxs;
+            }
+
+         }
+
+         
+      }
+      .product-description{
+         margin-top: 310px;
+         margin-left: 88px;
+
+         .title{
+            font-size: $font-size-xxxl;
+            color: $sixht-text-color;
+            width: 580px;
+         }
+
+         .paragraph{
+            font-size: $font-size-m;
+            color: $fifth-text-color;
+            font-family: $secondary-font-family;
+            margin-top: 33px;
+
+         }
+
+         .button{
+            background: $fourth-bg-color;
+            width: 240px;
+            height: 65px;
+            margin-top: 57px;
+            color: $third-text-color;
+            font-size: $font-size-s;
+            border: none;
+         }
+         .button:hover{
+            box-shadow: 3px 2px 3px rgb(1, 54, 1)
+         }
+      }
+   }
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 654px;
+  background: $third-bg-color;
+
+  .list-atem{
+   margin-top: 95px;
+   margin-left: 275px;
+
+   .logo{
+      font-size: $font-size-xl;
+      color: $third-text-color;
+   }
+
+   .list{
+      margin-top: 60px;
+      color: $third-text-color;
+      font-size: $font-size-m;
+
+      .list-link:hover{
+
+         border-bottom: 2px solid $third-text-color;
+
+      }
+   }
+  }
 }
 

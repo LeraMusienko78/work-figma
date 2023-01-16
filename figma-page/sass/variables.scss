@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
 @font-face{
     font-family: 'lato';
     src: url("../public/fonts/Lato/Lato-Regular.ttf");
@@ -48,10 +52,10 @@ $font-size-xl:45px;
 $font-size-l: 30px;
 $font-size-m:25px;
 $font-size-s : 20px;
-$font-size-xl:15px;
+$font-size-xs:15px;
 $font-size-xxs : 11px ;
 
 // Font-family:
 
-$primary-font-family: 'roboto';
+$primary-font-family: 'Garamond';
 $secondary-font-family: 'lato';
